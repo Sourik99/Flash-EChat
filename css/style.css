@@ -1,65 +1,68 @@
-body{
-    height: 100vh;
-   background-image: linear-gradient(rgb(233, 230, 213),rgb(190, 190, 190),rgb(190, 170, 190))
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    rgb(233, 230, 213),
+    rgb(190, 190, 190),
+    rgb(190, 170, 190)
+  );
 }
-.logo{
-    display: block;
-    margin: auto;
-    width: 45px;
-    height: 45px;
-    
+.logo {
+  display: block;
+  margin: auto;
+  width: 169px;
+  height: 49px
 }
-h1{
-    margin-top: 12px;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    
+h1 {
+  margin-top: 12px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
-.container{
-    margin: auto;
-    /* background-color: grey */
-    border: 2px solid black;
-    overflow-y: scroll;
-    max-width: 955px;
-    height: 500px;
-    margin-bottom: 20px;
-}
-
-.message{
-    border: 3px solid black;
-    width: 30%;
-    margin: 10px ;
-    padding: 5px;
-    border-radius: 10px;
+.container {
+  margin: auto;
+  border: 2px solid black;
+  overflow-y: auto;
+  max-width: 955px;
+  height: 500px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
-.left{
-    float: left;
-    clear: both
+.message {
+  border: 3px solid black;
+  width: 30%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 30px;
 }
 
-.right{
-    float: right;
-    clear: both
-    
+.left {
+  float: left;
+  clear: both;
+  background-color: grey;
 }
 
-#send-container{
-    text-align: center;
-    display: block;
-    margin: auto;
-    max-width: 985px;
-    width: 100%;
+.right {
+  float: right;
+  clear: both;
+  background-color: whitesmoke;
 }
-#messageInp{
-    border: 5px solid pink;
-    border-radius: 11px;
-    width: 84%;
+
+#send-container {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 985px;
+  width: 100%;
 }
-.btn{
-    border: 2px solid black;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 9%;
+#messageInp {
+  border: 5px solid black;
+  border-radius: 11px;
+  width: 84%;
+}
+.btn {
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 9%;
 }
